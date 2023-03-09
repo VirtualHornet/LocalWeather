@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{ 
+    font-family: 'Roboto';
+    background: rgb(39,38,55);
+    background: linear-gradient(90deg, rgba(39,38,55,1) 50%, rgba(120,137,154,1) 100%);
+    color: #fff;
+}
+#container{
+  text-align: center;
+  margin-top: 5%;
+  min-height: 100vh;
+}
+h1{
+  font-size: 80px;
+}
+h3{
+    font-size: 50px;
+    padding: 30px;
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #272c27; 
+    color: #fff;
+    transition-duration: 0.5s;
+}
+button:hover{
+    background-color: #fff; 
+    color: #272c27; ;
+}
